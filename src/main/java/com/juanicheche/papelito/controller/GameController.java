@@ -31,4 +31,9 @@ public class GameController {
         return gameService.getNames(gameId);
     }
 
+    @GetMapping("/getTimer")
+    public String getTimer(){
+        return "timer";
+    }
+
 }
